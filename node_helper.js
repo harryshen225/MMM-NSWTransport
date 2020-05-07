@@ -80,6 +80,7 @@ module.exports = NodeHelper.create({
                     outputRow["estimated"] = outputRow["planned"];
                     outputRow["dueIn"] = moment.duration(moment(stopEvent.departureTimePlanned).diff(moment())).format("h:mm:ss");
                 }
+                (stopEvent.location.properties) ? outputRow["occupancy"]=stopEvent.location.properties.occupancy.split("_").join(" ").toLowerCase() : outputRow["occupancy"]='n/a';
                 if (moment.duration(outputRow["dueIn"]) > 0) outputTable.push(outputRow);
             });
             self.sendSocketNotification("BUS_INFO", { data: outputTable });

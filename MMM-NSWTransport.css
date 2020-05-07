@@ -34,3 +34,8 @@
     text-align: left;
     font-weight: bold;
 }
+
+#occupancy{
+    text-transform: capitalize;
+    text-align: center;
+}

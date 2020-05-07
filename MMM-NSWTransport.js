@@ -48,6 +48,7 @@ Module.register("MMM-NSWTransport", {
 				<tr>
 					<th scope="col">Number</th>
 					<th scope="col">Destination</th>
+					<th scope="col">Occupancy</th>
 					<th scope="col">Due in</th>
 				</tr>
 			</thead>
@@ -70,7 +71,9 @@ Module.register("MMM-NSWTransport", {
 				buses +=`<tr>
 					<td class='bus-details'><i class='fas fa-bus'></i> ${stopEvent.number} </td>
 					<td class='bus-details'> ${stopEvent.destination} </td>
+					<td id="occupancy"> ${stopEvent.occupancy}</td>
 					<td id="due-in"> ${stopEvent.dueIn}</td>
+					
 				</tr>`;
 			});
 			if (payload.data.length == 0){ buses = "No Bus Information Retrieved"; }
