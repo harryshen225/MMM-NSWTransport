@@ -1,6 +1,8 @@
 # Module: MMM-NSWTransport
 This is a magicMirror module which provide real-time bus schedule information for any give bus stop ID
 
+![](sample.png)
+
 ## Dependencies
 - axios
 - fs
