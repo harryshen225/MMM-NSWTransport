@@ -1,0 +1,28 @@
+{
+  "name": "MMM-NSWTransport",
+  "version": "1.0.0",
+  "description": "Get estimations for bus stops in Valencia, Spain.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRaulXP/MMM-EMTValencia.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "bus stop",
+    "emt valencia",
+    "public transport"
+  ],
+  "author": "TheRaulXP",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRaulXP/MMM-EMTValencia/issues"
+  },
+  "homepage": "https://github.com/TheRaulXP/MMM-EMTValencia",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.25.3",
+    "moment-duration-format": "^2.3.2",
+    "xml2js": "latest"
+  }
+}
