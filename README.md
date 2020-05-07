@@ -62,3 +62,10 @@ The following properties can be configured:
 | `lastestN`                 | Display the latest N record 
 | `apiKey` | obtain the API key from https://opendata.transport.nsw.gov.au
 | `updateInterval`             | Time (in seconds) to wait before refreshing the data from the API.<br><br>**Required**<br>**Value type:** `Integer`<br>**Default value:** `10`
+
+## Reference
+| Option                       | Description
+| ---------------------------- | -----------
+| Setup Open Data Application  | https://opendata.transport.nsw.gov.au/user-guide 
+| Trip Planner APIs                 | https://opendata.transport.nsw.gov.au/node/601/exploreapi#!/default/tfnsw_dm_request
+| Reference Module MMM-EMTValencia | https://github.com/raulbalanza/MMM-EMTValencia
